@@ -1,0 +1,9 @@
+scalar Date
+
+type Query {
+  currentUser: User!
+}
+
+type User {
+  name: String
+}

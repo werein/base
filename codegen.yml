@@ -1,0 +1,16 @@
+overwrite: true
+schema: schema.graphql
+generates:
+  ui/src/models.ts:
+    - typescript
+    - typescript-operations
+  api/src/models.ts:
+    - typescript
+    - typescript-resolvers
+    - typescript-operations
+  api/schema.graphql:
+    plugins:
+      - schema-ast
+  ui/schema.graphql:
+    plugins:
+      - schema-ast

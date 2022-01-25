@@ -1,0 +1,4 @@
+{
+  "testFiles": "**/*.integration.{js,ts,jsx,tsx}",
+  "componentFolder": "src"
+}
